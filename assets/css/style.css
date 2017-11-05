@@ -1,0 +1,24 @@
+
+.primera{
+	width: 20px;
+	height: 20px;
+	background-color: #43EB2D;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.economica{
+	width: 20px;
+	height: 20px;
+	background-color: #EDA10F;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.noDisp{
+	width: 20px;
+	height: 20px;
+	background-color: #AEAAAA;
+	margin-top: 5px;
+	display: inline-block;
+}
