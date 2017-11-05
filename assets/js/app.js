@@ -43,12 +43,12 @@ function economica(){
 		if (asientoE[i]===true) {
 			divE[i].classList.add('noDisp');
 			asientoE[i]=false;
-			contenedor.innerHTML = '<div><h3>Pase de abordar</h3><p>Numero de asiento: '+(i+1)+'</p><p>clase: Economica</p></div>';
+			contenedor.innerHTML = '<div><h3>Pase de abordar</h3><p>Numero de asiento: '+(i+5)+'</p><p>clase: Economica</p></div>';
 			break;
 		}else{
 			cont++;
 			if (cont === 6) {
-				var resp = confirm("Ya no quedan lugares en Primera Clase\n ¿Quieres reservar asiento en Clase Económica?");
+				var resp = confirm("Ya no quedan lugares en Clase Económica\n ¿Quieres reservar asiento en Primera Clase?");
 				if (resp === true) {
 					primera();
 				}else{
